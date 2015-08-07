@@ -9434,6 +9434,10 @@ button.close {
 .feature p {
   color: #969696; }
 
+/* line 1, /home/emmanuel/code/ManuKpL/project-day-three-frontend/source/stylesheets/components/_list.scss */
+.list li {
+  display: block; }
+
 /* line 1, /home/emmanuel/code/ManuKpL/project-day-three-frontend/source/stylesheets/components/_newsletter.scss */
 .newsletter p {
   color: #646464;
