@@ -1,0 +1,19 @@
+.footer {
+  height: 150px;
+  background-color: rgb(70,70,70);
+  color: rgb(220,220,220);
+  padding: 40px 20px;
+  i {
+    font-size: 30px;
+  }
+  li {
+    margin-right: 30px;
+  }
+  a {
+    color: rgb(220,220,220);
+    &:hover {
+      color: $yellow;
+    }
+  }
+}
+

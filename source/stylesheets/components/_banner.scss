@@ -1,0 +1,45 @@
+.banner {
+  position: relative;
+  height: 350px;
+  background-size: cover;
+  padding: 75px;
+  color: white;
+  z-index: 0;
+  &-bg-orange {
+    background-image: image-url('background-orange.jpg');
+  }
+  &-bg-brown {
+    background-image: image-url('background-brown.jpg'); 
+  }
+  &-content {
+    position: relative;
+    z-index: 2;
+    p {
+      font-size: 18px;  
+    }
+    h1 {
+      font-size: 40px;
+      font-weight: bold;
+      line-height: 70px;
+    }
+  }
+  &-shadow-orange {
+    background-image: linear-gradient(90deg, rgba(255,179,71,0.6) 30%, rgba(255,204,51,0.4) 70%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  &-shadow-blue {
+    background-image: linear-gradient(120deg, rgba(96,108,221,0.5) 30%, rgba(63,98,184,0.3) 70%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+}
+

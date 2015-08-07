@@ -1,0 +1,15 @@
+- bg_image: https://unsplash.it/1000/600/?image=0
+  tag: POPULAR
+  avatar: https://pbs.twimg.com/profile_images/560495631786311683/39PQOCUa.jpeg
+  title: Trello
+  text: 'Very cool stuff, useful and smart'
+- bg_image: https://unsplash.it/1000/600/?image=1
+  tag: POPULAR
+  avatar: https://pbs.twimg.com/profile_images/560495631786311683/39PQOCUa.jpeg
+  title: Intercom
+  text: 'Very cool stuff, useful and smart'
+- bg_image: https://unsplash.it/1000/600/?image=2
+  tag: POPULAR
+  avatar: https://pbs.twimg.com/profile_images/560495631786311683/39PQOCUa.jpeg
+  title: Mixpanel
+  text: 'Very cool stuff, useful and smart'

@@ -1,0 +1,28 @@
+---
+title: The Team
+---
+
+<div class="banner banner-bg-brown text-center">
+  <div class="banner-shadow-blue"></div>
+  <div class="banner-content">
+    <h1>The gorgeous team</h1>
+    <p>Very cool guys, ressourcefull and smart</p>
+  </div>
+</div>
+<div id="cards" class="container padded">
+  <div class="row">
+    <% data.team_members.each do |card| %>
+      <div class="col-xs-12 col-sm-4">
+        <div class="card" style="background-image: url(<%= card.bg_image %>)">
+          <%= link_to "", "#", class: "card-link"%>
+          <span class="card-shadow"></span>
+          <span class="card-title"><p><%= card.tag %></p></span>
+          <span class="card-content">
+            <h2><%= card.title %></h2>
+            <p><%= card.text %></p>
+          </span>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>

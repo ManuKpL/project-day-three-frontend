@@ -23,3 +23,7 @@ gem 'font-awesome-sass', '~> 4.2.0'
 
 # CSS performance
 gem 'middleman-autoprefixer'
+
+# ExecJS::RuntimeUnavailable > fix
+gem 'execjs'
+gem 'therubyracer'

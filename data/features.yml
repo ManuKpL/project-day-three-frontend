@@ -1,0 +1,16 @@
+- image: analytics.svg
+  alt: analytics
+  title: Discuss best tools
+  description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae amet laborum repellendus tenetur quidem placeat aperiam consequatur. Doloribus eaque voluptatem, nobis non repudiandae corporis, temporibus, ratione, expedita omnis vero labore.'
+- image: data.svg
+  alt: data
+  title: Always in sync
+  description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae amet laborum repellendus tenetur quidem placeat aperiam consequatur. Doloribus eaque voluptatem, nobis non repudiandae corporis, temporibus, ratione, expedita omnis vero labore.'
+- image: computer.svg
+  alt: search
+  title: Powerful search
+  description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae amet laborum repellendus tenetur quidem placeat aperiam consequatur. Doloribus eaque voluptatem, nobis non repudiandae corporis, temporibus, ratione, expedita omnis vero labore.'
+- image: paper.svg
+  alt: share
+  title: Share the love
+  description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae amet laborum repellendus tenetur quidem placeat aperiam consequatur. Doloribus eaque voluptatem, nobis non repudiandae corporis, temporibus, ratione, expedita omnis vero labore.'

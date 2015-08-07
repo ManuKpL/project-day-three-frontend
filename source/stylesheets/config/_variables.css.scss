@@ -2,9 +2,9 @@
  * Fonts
  * ------------------------------------- */
 // Google fonts
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:400,100,300,700,500");
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:400,100,300,700,500|Montserrat:400,700");
 $base-font: "Open Sans", "Helvetica", "sans-serif";
-$header-font: "Raleway", "Helvetica", "sans-serif";
+$header-font: "Montserrat", "Raleway", "sans-serif";
 
 // Local fonts (uncomment following lines)
 // @font-face {
@@ -26,11 +26,11 @@ $base-height: 1.4;
 // Scheme
 $brand-color: #D23333;
 
-$red: #EE5F5B;
-$blue: #469AE0;
-$yellow: #FDB631;
-$orange: #E67E22;
-$green: #32B796;
+$red: #E3170A;
+$blue-lighter: #ADD7F6;
+$blue-light: #6890E7;
+$blue: #1E3888;
+$yellow: #F5E663;
 
 // Gray scale
 $gray-darker:  lighten(#000, 13.5%); // #222
