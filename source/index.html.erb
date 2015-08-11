@@ -2,12 +2,12 @@
 title: Manu Kpl's page
 ---
 
-<div class="banner banner-bg-orange text-center">
-  <div class="banner-shadow-orange"></div>
+<div class="banner banner-bg-space text-center">
+  <div class="banner-shadow-blue"></div>
   <div class="banner-content">
     <h1>Doctor Who Stuff</h1>
     <p>Some stuff but not much</p>
-    <%= link_to "Season 5", "episodes.html", class: "btn btn-primary btn-lg"%>
+    <%= link_to "Know more", "#", class: "btn btn-primary btn-lg"%>
   </div>
 </div>
 <div id="features" class="container padded">
@@ -26,21 +26,25 @@ title: Manu Kpl's page
 <div id="cards" class="container padded">
   <h2 class="text-center division-title">Most Popular</h2>
   <div class="row">
+    <% timing = 0 %>
     <% data.cards.each do |card| %>
-      <div class="col-xs-12 col-sm-4">
-        <div class="card" style="background-image: url(<%= card.bg_image %>)">
-          <%= link_to "", "#", class: "card-link"%>
-          <span class="card-shadow"></span>
-          <span class="card-title">
-            <p><%= card.tag %></p>
-          </span>
-          <span class="card-avatar"><%= image_tag image_path(card.avatar), class: "avatar avatar-bordered", alt: "Manu KpL" %></span>
-          <span class="card-content">
-            <h2><%= card.title %></h2>
-            <p><%= card.text %></p>
-          </span>
+      <div data-sr="wait <%= timing %>s, ease-in-out 100px">
+        <div class="col-xs-12 col-sm-4">
+          <div class="card" style="background-image: url(<%= card.bg_image %>)">
+            <%= link_to "", "#", class: "card-link"%>
+            <span class="card-shadow"></span>
+            <span class="card-title">
+              <p><%= card.tag %></p>
+            </span>
+            <span class="card-avatar"><%= image_tag image_path(card.avatar), class: "avatar avatar-bordered", alt: "Manu KpL" %></span>
+            <span class="card-content">
+              <h2><%= card.title %></h2>
+              <p><%= card.text %></p>
+            </span>
+          </div>
         </div>
       </div>
+      <% timing += 0.5 %>
     <% end %>
   </div>
 </div>

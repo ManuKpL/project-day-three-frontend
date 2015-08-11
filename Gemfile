@@ -27,3 +27,9 @@ gem 'middleman-autoprefixer'
 # ExecJS::RuntimeUnavailable > fix
 gem 'execjs'
 gem 'therubyracer'
+
+# Rails Assets
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-scrollReveal.js'
+end

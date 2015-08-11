@@ -1,9 +1,16 @@
 <nav class="navbar">
   <div class="container navbar-container">
 
-    <% link_to "index.html" do %>
-      <%= image_tag "logo.svg", class: "navbar-logo" %>
-    <% end %>
+    <div class="navbar-item">
+      <div class="dropdown">
+        <img src="images/logo.jpg" alt="" class="navbar-logo dropdown-toggle" id="navbar-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        <ul class="dropdown-menu dropdown-menu-left navbar-dropdown-menu" aria-labelledby="navbar-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Dashboard</a></li>
+          <li><a href="#">Log Out</a></li>
+        </ul>
+      </div>
+    </div>
 
     <form action="" class="navbar-search">
       <input type="text" class="navbar-search-input hidden-xs" placeholder="Search for great content">
@@ -11,32 +18,24 @@
         <i class="fa fa-search"></i>
       </button>
     </form>
-
-    <div class="navbar-item">
-      <%= link_to "Participate", "#", class: "navbar-button btn btn-default" %>
-    </div>
-    
-    <% link_to "contact.html", class: "navbar-item navbar-link" do %><i class="fa fa-users"></i> Team<% end %>
-
+    <hr>
+    <% link_to "contact.html", class: "navbar-item navbar-link" do %><i class="fa fa-users hidden-xs"></i> Team<% end %>
+    <hr>
+    <% link_to "index.html#map", class: "navbar-item navbar-link" do %>Find Us <i class="fa fa-map-marker hidden-xs"></i><% end %>
+<!--     <hr>
     <a href="" class="navbar-item navbar-link">
       <div class="icon-badge-container">
         <i class="fa fa-envelope-o"></i>
         <div class="icon-badge icon-badge-blue-light">3</div>
       </div>
-    </a>
-
+    </a> -->
+<!--     <hr>
     <div class="navbar-item">
-      <div class="dropdown">
-        <img src="https://pbs.twimg.com/profile_images/560495631786311683/39PQOCUa.jpeg" alt="" class="avatar dropdown-toggle" id="navbar-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-
-        <ul class="dropdown-menu dropdown-menu-right navbar-dropdown-menu" aria-labelledby="navbar-menu">
-          <li><a href="#">Profile</a></li>
-          <li><a href="#">Dashboard</a></li>
-          <li><a href="#">Log Out</a></li>
-        </ul>
-
-      </div>
+      <img src="https://pbs.twimg.com/profile_images/560495631786311683/39PQOCUa.jpeg" alt="" class="avatar">
+    </div> -->
+    <hr>
+    <div class="navbar-item">
+      <%= link_to "Season 5", "episodes.html", class: "navbar-button btn btn-default"%>
     </div>
-
   </div>
 </nav>

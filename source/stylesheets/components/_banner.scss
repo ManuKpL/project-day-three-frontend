@@ -1,18 +1,31 @@
 .banner {
   position: relative;
-  height: 350px;
   background-size: cover;
-  padding: 75px;
+  height: 600px;
+  // padding: 75px;
+  margin-top: 70px;
   color: white;
   z-index: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: all 0.3s ease;
   &-bg-orange {
     background-image: image-url('background-orange.jpg');
+  }
+  &-bg-space {
+    background-image: image-url('background-space.jpg');
   }
   &-bg-brown {
     background-image: image-url('background-brown.jpg'); 
   }
   &-content {
+    flex: 0 1 auto;
     position: relative;
+    // top: auto;
+    // bottom: auto;
+    // left: 0;
+    // right: 0;
     z-index: 2;
     p {
       font-size: 18px;  

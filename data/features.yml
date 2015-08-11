@@ -1,6 +1,6 @@
 - image: analytics.svg
   alt: analytics
-  title: Discuss best tools
+  title: Powerful Data
   description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae amet laborum repellendus tenetur quidem placeat aperiam consequatur. Doloribus eaque voluptatem, nobis non repudiandae corporis, temporibus, ratione, expedita omnis vero labore.'
 - image: data.svg
   alt: data
@@ -8,7 +8,7 @@
   description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae amet laborum repellendus tenetur quidem placeat aperiam consequatur. Doloribus eaque voluptatem, nobis non repudiandae corporis, temporibus, ratione, expedita omnis vero labore.'
 - image: computer.svg
   alt: search
-  title: Powerful search
+  title: Exhaustive search
   description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae amet laborum repellendus tenetur quidem placeat aperiam consequatur. Doloribus eaque voluptatem, nobis non repudiandae corporis, temporibus, ratione, expedita omnis vero labore.'
 - image: paper.svg
   alt: share

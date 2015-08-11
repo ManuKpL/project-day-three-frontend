@@ -33,6 +33,7 @@
     bottom: 15px;
     left: 10px;
     z-index: 2;
+    text-shadow: 1px 1px 3px black;
   }
   &-title {
   position: absolute;
@@ -41,6 +42,7 @@
   font-size: 14px;
   font-weight: light;
   z-index: 2;
+  text-shadow: 1px 1px 1px black;
   }
   &-avatar {
     position: absolute;
