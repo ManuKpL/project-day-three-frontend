@@ -29,49 +29,51 @@
     <nav class="navbar">
   <div class="container navbar-container">
 
-<a href="./">      <img class="navbar-logo" src="images/logo.svg" />
-</a>
+    <div class="navbar-item">
+      <div class="dropdown">
+        <img src="images/logo.jpg" alt="" class="navbar-logo dropdown-toggle" id="navbar-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        <ul class="dropdown-menu dropdown-menu-left navbar-dropdown-menu" aria-labelledby="navbar-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Dashboard</a></li>
+          <li><a href="#">Log Out</a></li>
+        </ul>
+      </div>
+    </div>
+
     <form action="" class="navbar-search">
       <input type="text" class="navbar-search-input hidden-xs" placeholder="Search for great content">
       <button type="submit" class="navbar-search-btn hidden-xs">
         <i class="fa fa-search"></i>
       </button>
     </form>
-
-    <div class="navbar-item">
-      <a class="navbar-button btn btn-default" href="#">Participate</a>
-    </div>
-    
-    <a class="navbar-item navbar-link" href="contact.html"><i class="fa fa-users"></i> Team</a>
-
+    <hr>
+    <a class="navbar-item navbar-link" href="contact.html"><i class="fa fa-users hidden-xs"></i> Team</a>
+    <hr>
+    <a class="navbar-item navbar-link" href="./#map">Find Us <i class="fa fa-map-marker hidden-xs"></i></a>
+<!--     <hr>
     <a href="" class="navbar-item navbar-link">
       <div class="icon-badge-container">
         <i class="fa fa-envelope-o"></i>
         <div class="icon-badge icon-badge-blue-light">3</div>
       </div>
-    </a>
-
+    </a> -->
+<!--     <hr>
     <div class="navbar-item">
-      <div class="dropdown">
-        <img src="https://pbs.twimg.com/profile_images/560495631786311683/39PQOCUa.jpeg" alt="" class="avatar dropdown-toggle" id="navbar-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-
-        <ul class="dropdown-menu dropdown-menu-right navbar-dropdown-menu" aria-labelledby="navbar-menu">
-          <li><a href="#">Profile</a></li>
-          <li><a href="#">Dashboard</a></li>
-          <li><a href="#">Log Out</a></li>
-        </ul>
-
-      </div>
+      <img src="https://pbs.twimg.com/profile_images/560495631786311683/39PQOCUa.jpeg" alt="" class="avatar">
+    </div> -->
+    <hr>
+    <div class="navbar-item">
+      <a class="navbar-button btn btn-default" href="episodes.html">Season 5</a>
     </div>
-
   </div>
 </nav>
-    <div class="banner banner-bg-orange text-center">
-  <div class="banner-shadow-orange"></div>
+
+    <div class="banner banner-bg-space text-center">
+  <div class="banner-shadow-blue"></div>
   <div class="banner-content">
     <h1>Doctor Who Stuff</h1>
     <p>Some stuff but not much</p>
-    <a class="btn btn-primary btn-lg" href="episodes.html">Season 5</a>
+    <a class="btn btn-primary btn-lg" href="#">Know more</a>
   </div>
 </div>
 <div id="features" class="container padded">
@@ -79,7 +81,7 @@
       <div class="feature col-xs-12 col-sm-6 col-md-3">
         <h3>
           <img alt="analytics" src="images/analytics.svg" />
-          Discuss best tools
+          Powerful Data
         </h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae amet laborum repellendus tenetur quidem placeat aperiam consequatur. Doloribus eaque voluptatem, nobis non repudiandae corporis, temporibus, ratione, expedita omnis vero labore.</p>
       </div>
@@ -93,7 +95,7 @@
       <div class="feature col-xs-12 col-sm-6 col-md-3">
         <h3>
           <img alt="search" src="images/computer.svg" />
-          Powerful search
+          Exhaustive search
         </h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae amet laborum repellendus tenetur quidem placeat aperiam consequatur. Doloribus eaque voluptatem, nobis non repudiandae corporis, temporibus, ratione, expedita omnis vero labore.</p>
       </div>
@@ -109,46 +111,52 @@
 <div id="cards" class="container padded">
   <h2 class="text-center division-title">Most Popular</h2>
   <div class="row">
-      <div class="col-xs-12 col-sm-4">
-        <div class="card" style="background-image: url(https://unsplash.it/1000/600/?image=0)">
-          <a class="card-link" href="#"></a>
-          <span class="card-shadow"></span>
-          <span class="card-title">
-            <p>POPULAR</p>
-          </span>
-          <span class="card-avatar"><img class="avatar avatar-bordered" alt="Manu KpL" src="https://pbs.twimg.com/profile_images/560495631786311683/39PQOCUa.jpeg" /></span>
-          <span class="card-content">
-            <h2>Trello</h2>
-            <p>Very cool stuff, useful and smart</p>
-          </span>
+      <div data-sr="wait 0s, ease-in-out 100px">
+        <div class="col-xs-12 col-sm-4">
+          <div class="card" style="background-image: url(https://thefaust.files.wordpress.com/2010/08/amy-pond-article-578797428.jpg)">
+            <a class="card-link" href="#"></a>
+            <span class="card-shadow"></span>
+            <span class="card-title">
+              <p>POPULAR</p>
+            </span>
+            <span class="card-avatar"><img class="avatar avatar-bordered" alt="Manu KpL" src="http://www.irfm.fr/wp-content/uploads/2013/08/tardis.jpg" /></span>
+            <span class="card-content">
+              <h2>Amy Pond</h2>
+              <p>Very very scottish</p>
+            </span>
+          </div>
         </div>
       </div>
-      <div class="col-xs-12 col-sm-4">
-        <div class="card" style="background-image: url(https://unsplash.it/1000/600/?image=1)">
-          <a class="card-link" href="#"></a>
-          <span class="card-shadow"></span>
-          <span class="card-title">
-            <p>POPULAR</p>
-          </span>
-          <span class="card-avatar"><img class="avatar avatar-bordered" alt="Manu KpL" src="https://pbs.twimg.com/profile_images/560495631786311683/39PQOCUa.jpeg" /></span>
-          <span class="card-content">
-            <h2>Intercom</h2>
-            <p>Very cool stuff, useful and smart</p>
-          </span>
+      <div data-sr="wait 0.5s, ease-in-out 100px">
+        <div class="col-xs-12 col-sm-4">
+          <div class="card" style="background-image: url(https://pbs.twimg.com/profile_images/1295111807/martha.jpg)">
+            <a class="card-link" href="#"></a>
+            <span class="card-shadow"></span>
+            <span class="card-title">
+              <p>POPULAR</p>
+            </span>
+            <span class="card-avatar"><img class="avatar avatar-bordered" alt="Manu KpL" src="http://www.irfm.fr/wp-content/uploads/2013/08/tardis.jpg" /></span>
+            <span class="card-content">
+              <h2>Martha Jones</h2>
+              <p>Cool girl, gone too soon</p>
+            </span>
+          </div>
         </div>
       </div>
-      <div class="col-xs-12 col-sm-4">
-        <div class="card" style="background-image: url(https://unsplash.it/1000/600/?image=2)">
-          <a class="card-link" href="#"></a>
-          <span class="card-shadow"></span>
-          <span class="card-title">
-            <p>POPULAR</p>
-          </span>
-          <span class="card-avatar"><img class="avatar avatar-bordered" alt="Manu KpL" src="https://pbs.twimg.com/profile_images/560495631786311683/39PQOCUa.jpeg" /></span>
-          <span class="card-content">
-            <h2>Mixpanel</h2>
-            <p>Very cool stuff, useful and smart</p>
-          </span>
+      <div data-sr="wait 1.0s, ease-in-out 100px">
+        <div class="col-xs-12 col-sm-4">
+          <div class="card" style="background-image: url(http://media.tumblr.com/tumblr_mbk3swyzrm1r31ya0.jpg)">
+            <a class="card-link" href="#"></a>
+            <span class="card-shadow"></span>
+            <span class="card-title">
+              <p>POPULAR</p>
+            </span>
+            <span class="card-avatar"><img class="avatar avatar-bordered" alt="Manu KpL" src="http://www.irfm.fr/wp-content/uploads/2013/08/tardis.jpg" /></span>
+            <span class="card-content">
+              <h2>The Tardis</h2>
+              <p>Crazy. Calls herself sexy</p>
+            </span>
+          </div>
         </div>
       </div>
   </div>

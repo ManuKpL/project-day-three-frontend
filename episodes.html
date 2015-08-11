@@ -29,43 +29,45 @@
     <nav class="navbar">
   <div class="container navbar-container">
 
-<a href="./">      <img class="navbar-logo" src="images/logo.svg" />
-</a>
+    <div class="navbar-item">
+      <div class="dropdown">
+        <img src="images/logo.jpg" alt="" class="navbar-logo dropdown-toggle" id="navbar-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        <ul class="dropdown-menu dropdown-menu-left navbar-dropdown-menu" aria-labelledby="navbar-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Dashboard</a></li>
+          <li><a href="#">Log Out</a></li>
+        </ul>
+      </div>
+    </div>
+
     <form action="" class="navbar-search">
       <input type="text" class="navbar-search-input hidden-xs" placeholder="Search for great content">
       <button type="submit" class="navbar-search-btn hidden-xs">
         <i class="fa fa-search"></i>
       </button>
     </form>
-
-    <div class="navbar-item">
-      <a class="navbar-button btn btn-default" href="#">Participate</a>
-    </div>
-    
-    <a class="navbar-item navbar-link" href="contact.html"><i class="fa fa-users"></i> Team</a>
-
+    <hr>
+    <a class="navbar-item navbar-link" href="contact.html"><i class="fa fa-users hidden-xs"></i> Team</a>
+    <hr>
+    <a class="navbar-item navbar-link" href="./#map">Find Us <i class="fa fa-map-marker hidden-xs"></i></a>
+<!--     <hr>
     <a href="" class="navbar-item navbar-link">
       <div class="icon-badge-container">
         <i class="fa fa-envelope-o"></i>
         <div class="icon-badge icon-badge-blue-light">3</div>
       </div>
-    </a>
-
+    </a> -->
+<!--     <hr>
     <div class="navbar-item">
-      <div class="dropdown">
-        <img src="https://pbs.twimg.com/profile_images/560495631786311683/39PQOCUa.jpeg" alt="" class="avatar dropdown-toggle" id="navbar-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-
-        <ul class="dropdown-menu dropdown-menu-right navbar-dropdown-menu" aria-labelledby="navbar-menu">
-          <li><a href="#">Profile</a></li>
-          <li><a href="#">Dashboard</a></li>
-          <li><a href="#">Log Out</a></li>
-        </ul>
-
-      </div>
+      <img src="https://pbs.twimg.com/profile_images/560495631786311683/39PQOCUa.jpeg" alt="" class="avatar">
+    </div> -->
+    <hr>
+    <div class="navbar-item">
+      <a class="navbar-button btn btn-default" href="episodes.html">Season 5</a>
     </div>
-
   </div>
 </nav>
+
     <div id="episodes" class="container padded">
 <h2 class="text-center division-title">Season 5 episodes</h2>
   <div class="row">
